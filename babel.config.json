@@ -1,0 +1,23 @@
+{
+    "presets": [
+        "@babel/env",
+        "@babel/react",
+        "@babel/preset-typescript"
+    ],
+    "plugins": [
+        "@babel/plugin-proposal-class-properties",
+        [
+            "babel-plugin-module-resolver",
+            {
+                "root": [
+                    "./src"
+                ],
+                "alias": {
+                    "app-home": "./src/app-home",
+                    "app": "./src/app",
+                    "component-library": "./src/component-library"
+                }
+            }
+        ]
+    ]
+}

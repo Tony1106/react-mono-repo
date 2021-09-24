@@ -1,0 +1,14 @@
+{
+  "name": "app-home",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "react": "^17.0.2",
+    "component-library": "1.0.0",
+    "app-home": "1.0.0"
+  }
+}
